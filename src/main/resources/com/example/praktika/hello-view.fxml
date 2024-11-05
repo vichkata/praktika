@@ -5,12 +5,34 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.praktika.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
-
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course.HelloController">
+    <children>
+        <AnchorPane prefHeight="86.0" prefWidth="600.0" style="-fx-background-color: #a8dfa0;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Button fx:id="avtor" layoutX="14.0" layoutY="27.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="авторизация" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="475.6" AnchorPane.topAnchor="27.0">
+                    <font>
+                        <Font name="Comic Sans MS" size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="about" layoutX="189.0" layoutY="27.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="о нас" AnchorPane.leftAnchor="189.0" AnchorPane.rightAnchor="336.6" AnchorPane.topAnchor="27.0">
+                    <font>
+                        <Font name="Comic Sans MS" size="15.0" />
+                    </font>
+                </Button>
+                <Button fx:id="reviews" layoutX="353.0" layoutY="27.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="отзывы">
+                    <font>
+                        <Font name="Comic Sans MS" size="15.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <ImageView fx:id="image" fitHeight="338.0" fitWidth="600.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-18.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
+            <viewport>
+                <Rectangle2D />
+            </viewport></ImageView>
+    </children>
+</AnchorPane>
