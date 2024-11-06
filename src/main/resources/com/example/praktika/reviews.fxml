@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course.Reviews">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktika.Reviews">
    <children>
       <BorderPane fx:id="border" layoutX="41.0" layoutY="128.0" prefHeight="248.0" prefWidth="535.0">
          <center>
@@ -37,7 +37,7 @@
          <children>
             <ImageView fx:id="image" fitHeight="124.0" fitWidth="75.0" layoutX="31.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../Downloads/review.png" />
+
                </image>
             </ImageView>
             <ImageView fx:id="home" fitHeight="75.0" fitWidth="90.0" layoutX="480.0" layoutY="8.0" onMouseClicked="#HomePage" pickOnBounds="true" preserveRatio="true" />

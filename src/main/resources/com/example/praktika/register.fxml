@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course.Register">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktika.Register">
    <children>
       <AnchorPane prefHeight="400.0" prefWidth="293.0" style="-fx-background-color: #a8dfa0;">
          <children>
@@ -25,7 +25,7 @@
             </Button>
             <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="72.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../Desktop/user.png" />
+
                </image>
             </ImageView>
          </children>

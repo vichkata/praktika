@@ -48,7 +48,7 @@ public class HelloController {
             @Override
             public void handle(MouseEvent mouseEvent) {
                 try {
-                    FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("authorization.fxml")); //для клиентов и менеджера
+                    FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("autorization.fxml")); //для клиентов и менеджера
                     Scene scene = new Scene(fxmlLoader.load(), 600, 400);
                     Stage stage = new Stage();
                     Image icon = new Image("C:/Users/Вика/IdeaProjects/course/icons.png");

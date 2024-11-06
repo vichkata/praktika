@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course.Employee">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.praktika.Employee">
     <children>
         <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #a8dfa0;">
             <children>
@@ -26,7 +26,7 @@
             <ComboBox fx:id="climate" editable="true" layoutX="277.0" layoutY="30.0" prefHeight="26.0" prefWidth="96.0" promptText="климат" />
             <ImageView fx:id="image" fitHeight="32.0" fitWidth="26.0" layoutX="534.0" layoutY="30.0" onMouseClicked="#HomePage" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../../Desktop/pos.png" />
+
                </image>
             </ImageView>
             <ComboBox fx:id="sea" editable="true" layoutX="415.0" layoutY="29.0" prefHeight="26.0" prefWidth="106.0" promptText="море" />
@@ -40,7 +40,7 @@
       </TextField>
       <ImageView fx:id="image1" fitHeight="32.0" fitWidth="35.0" layoutX="14.0" layoutY="84.0" onMouseClicked="#Home" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Downloads/loading.png" />
+
          </image>
       </ImageView>
     </children>
