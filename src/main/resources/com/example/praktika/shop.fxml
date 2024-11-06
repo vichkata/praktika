@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course.Shop">
+   <children>
+      <ListView fx:id="stud" layoutX="51.0" layoutY="131.0" prefHeight="244.0" prefWidth="486.0" />
+      <AnchorPane layoutY="-3.0" prefHeight="98.0" prefWidth="600.0" style="-fx-background-color: #a8dfa0;">
+         <children>
+            <Label layoutX="260.0" layoutY="35.0" text="Корзина" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

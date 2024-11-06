@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course.Register">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="293.0" style="-fx-background-color: #a8dfa0;">
+         <children>
+            <Label layoutX="88.0" layoutY="62.0" text="Регестрация" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="reg" layoutX="75.0" layoutY="317.0" mnemonicParsing="false" style="-fx-background-color: #43bc4b;" text="зарегестроваться">
+               <font>
+                  <Font name="Comic Sans MS" size="15.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="72.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/user.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="fio" layoutX="377.0" layoutY="63.0" promptText="ФИО" />
+      <TextField fx:id="login" layoutX="377.0" layoutY="107.0" promptText="логин" />
+      <TextField fx:id="pas" layoutX="377.0" layoutY="156.0" promptText="пароль" />
+      <TextField fx:id="email" layoutX="377.0" layoutY="210.0" promptText="почта" />
+      <ComboBox fx:id="role" editable="true" layoutX="377.0" layoutY="268.0" prefWidth="150.0" promptText="роль" />
+      <Label fx:id="Suc" layoutX="358.0" layoutY="323.0" text="Label">
+         <font>
+            <Font name="Comic Sans MS" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
