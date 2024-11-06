@@ -1,4 +1,4 @@
-package com.example.course;
+package com.example.praktika;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

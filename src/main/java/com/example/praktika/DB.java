@@ -1,4 +1,4 @@
-package com.example.course;
+package com.example.praktika;
 
 import java.math.BigDecimal;
 import java.sql.*;

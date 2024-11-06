@@ -1,4 +1,4 @@
-package com.example.course;
+package com.example.praktika;
 
 public class Photo {
     private String name_tour;
