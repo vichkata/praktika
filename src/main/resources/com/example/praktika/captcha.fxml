@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.geometry.Insets?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.praktika.CaptchaController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <children>
+        <VBox prefHeight="131.0" prefWidth="277.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Canvas fx:id="canvas" height="64.0" width="256.0">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </Canvas>
+                <HBox prefHeight="40.0" prefWidth="257.0">
+                    <TextField fx:id="textInputField" />
+                    <Button fx:id="prov" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" text="Проверить" />
+                </HBox>
+                <ProgressBar fx:id="progressBar" prefHeight="16.0" prefWidth="245.0" progress="0.0" />
+            </children>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding></VBox>
+    </children>
+
+</AnchorPane>
+
